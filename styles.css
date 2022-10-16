@@ -4,9 +4,39 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 100%;
+.image-container {
+    display: flex;
+    width: 400px;
     min-height: 100vh;
+
+    /* justify-content: center; */
+
+}
+
+/* .picture {
+    background-image: url('images/tucker.jpg');
+    background-position: center;
+    width: auto;
+    height: inherit;
+} */
+
+img {
+    width: inherit;
+    min-height: 100vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 10vh;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: 80px;
+    color: white;
 }
 
 body {
