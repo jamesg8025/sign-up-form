@@ -59,8 +59,8 @@ body {
 
 .form-header,
 .form-card {
-    margin: 40px;
-    padding: 50px;
+    margin: 20px;
+    padding: 30px;
     text-align: left;
 }
 
@@ -95,10 +95,17 @@ a {
     display: flex;
     flex-flow: column wrap;
     margin: 10px;
+    width: 40%;
 }
 
 label {
     font-size: 12px;
+}
+
+input {
+    border-radius: 3px;
+    background-color: #E5E7EB;
+    border: 1px solid rgb(77, 77, 77);
 }
 
 footer {
