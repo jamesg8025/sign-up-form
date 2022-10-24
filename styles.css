@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "backtoschool";
+    src: url("fonts/webfontkit-20220902-172640/backtoschool-webfont.woff2") format("woff2"),
+     url("fonts/webfontkit-20220902-172640/backtoschool-webfont.woff") format("woff");
+     font-weight: normal;
+     font-style: normal;
+}
+
 .image-container {
     display: flex;
     width: 550px;
@@ -29,7 +37,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: "backtoschool";
+    font-size: 60px;
     position: absolute;
     bottom: 10vh;
     padding: 15px;
