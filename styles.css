@@ -127,9 +127,7 @@ input:focus {
 button {
     width: 200px;
     height: 40px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    margin-left: 35px;
+    margin-left: 9px;
     background-color: #596D48;
     color: white;
     border-radius: 5px;
@@ -142,12 +140,17 @@ button:hover {
 }
 
 .login-2 {
+    margin-top: 10px;
     margin-bottom: 80px;
     margin-left: 35px;
 }
 
 .login-link {
     color: #596D48;
+}
+
+.login-link:hover {
+    color: #47573a;
 }
 
 footer {
