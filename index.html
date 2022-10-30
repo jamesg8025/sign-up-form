@@ -66,5 +66,26 @@
             --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i> 
         </a>
     </footer>
+    <script>
+        const form = document.querySelector('form');
+        // Function to check whether both passwords are matching or not
+        form.addEventListener('submit', e => {
+            password = form.password.value;
+            confirmPassword = form.confirmPassword.value;
+            // if nothing is entered
+            if (password == '')
+                alert('Please enter a password!');
+            else if (confirmPassword == '')
+                alert('Please confirm password!');
+            // if not the same, return false
+            else if (password != confirmPassword) {
+                alert('Passwords do not match!')
+                return false;
+            }
+            else {
+                return true;
+            }
+        });
+    </script>
 </body>
 </html>
